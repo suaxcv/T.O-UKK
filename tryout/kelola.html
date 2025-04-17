@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>try out</title>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <img src="Logo_Polda_Sumbar.svg" alt="Logo" width="45" height="45" class="d-inline-block align-text-top">
+            Inventaris koperasi polresta padang
+          </a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="container mt-3">
+        <div class="mb-3 row">
+            <label for="barang" class="col-sm-2 col-form-label">Nama Barang</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="barang" placeholder="Ex : Mie kuning">
+            </div>
+          </div>
+
+        <div class="mb-3 row">
+            <label for="kategori" class="col-sm-2 col-form-label">kategori barang</label>
+            <div class="col-sm-10">
+                <select id="kategori" class="form-select" aria-label="Default select example">
+                    <option selected>kategori barang</option>
+                    <option value="1">makanan</option>
+                    <option value="2">minuman</option>
+                    <option value="3">dll</option>
+                  </select>
+            </div>
+        </div>
+
+        <div class="mb-3 row">
+            <label for="jumlah" class="col-sm-2 col-form-label">jumlah barang</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="jumlah" placeholder="Ex : 100 dus">
+            </div>
+          </div>
+
+          <div class="mb-3 row">
+            <label for="harga" class="col-sm-2 col-form-label">harga barang</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="harga" placeholder="Ex : 1000">
+            </div>
+          </div>
+
+          <div class="mb-3 row">
+            <label for="tanggal" class="col-sm-2 col-form-label">tanggal masuk</label>
+            <div class="col-sm-10">
+              <input type="date" class="form-control" id="tanggal">
+            </div>
+          </div>
+
+          <div class="col">
+            <button class="btn btn-outline-primary">Masukan data</button>
+            <a href="index.html" class="btn btn-outline-danger">Batal</a>
+          </div>
+      </div>
+    
+</body>
+</html>
